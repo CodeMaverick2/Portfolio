@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testimonials{
+    height: 100vh;
+    background-color: rgb(245, 101, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonials h1{
+    color: #212121;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}

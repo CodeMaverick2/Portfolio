@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.blog{
+    height: 100vh;
+    background-color: #212121;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-info h1{
+    font-size: 60px;
+    color: #F56539;
+    margin-bottom: 40px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 450px;
+    width: 300px;
+    background-color: #FF764D;
+    margin: 50px;
+    border-radius: 5px;
+}
+.image{
+    height: 300;
+    width: 300px;
+    overflow: hidden;
+}

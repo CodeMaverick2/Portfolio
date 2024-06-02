@@ -37,7 +37,7 @@ function Home(){
 
                     <div class="buttons">
                         <button class="downl">Download CV</button>
-                        <button class="cont">Contact</button>
+                        <button class="cont"><a href="#contacts">Contact</a></button>
                     </div>
                 </div>
             </div>

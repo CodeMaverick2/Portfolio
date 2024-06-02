@@ -7,8 +7,6 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Projects from './Projects';
 import Services from './Services';
-import Testimonials from './Testimonials';
-import Blog from './Blog.js';
 import Contact from './Contact';
 function App() {
   return (
@@ -21,8 +19,6 @@ function App() {
       <Experience />
       <Projects />
       <Services />
-      <Testimonials />
-      <Blog />
       <Contact />
     </div>
   );

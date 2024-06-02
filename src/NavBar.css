@@ -1,35 +1,118 @@
-.navBar{
+.navBar {
     display: flex;
     height: 10vh;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
+    padding: 0 20px;
 }
-.left{
-    width: 35%;
-    background-color: rgb(245, 101, 57);
-    height: 100%;
-    padding: 30px 50px;
+
+.left {
     display: flex;
     align-items: center;
-    justify-content: start;
 }
-.right{
-    width: 65%;
-    background-color: rgb(33, 33, 33);
-    height: 100%;
-    padding: 35px 50px;
+
+.right {
     display: flex;
     align-items: center;
-    justify-content: end;
 }
-.navBar h1{
-    color: rgb(33, 33, 33);
+
+.navBar h1 {
+    color: #fff;
     font-family: "Great Vibes", cursive;
     font-size: 2.8em;
 }
-.jss61{
-    font-size: 40px;
-    font-weight: 400;
-    color: #eaeaea;
 
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.menu-icon {
+    font-size: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #333;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+    z-index: 1000; 
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    padding:13px 30px;
+    border: 2px solid #ff5722;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #ff5722;
+}
+
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
+.icon-home, .icon-about, .icon-resume, .icon-services, .icon-blog, .icon-contact {
+    margin-right: 10px;
+}
+.navBar {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(245,101,57) 10%,rgb(33,33,33) 90%);
+    padding: 0 20px;
 }

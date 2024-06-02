@@ -1,7 +1,7 @@
 import './Services.css';
 function Services() {
     return(
-        <div className="services">
+        <div className="services" id='services'>
             <div class="service-info">
                 <h1>Services</h1>
                 <p>These are some of the services I offer. Reach out to me if I can help you with any!</p>

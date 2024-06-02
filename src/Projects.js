@@ -1,7 +1,7 @@
 import './Projects.css';
 function Projects(){
     return(
-        <div class="projects">
+        <div class="projects" id='projects'>
             <div class="header">
                 <h1>Projects</h1>
             </div>

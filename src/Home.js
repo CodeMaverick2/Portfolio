@@ -2,7 +2,7 @@ import './Home.css';
 
 function Home(){
     return(
-        <div className="home">
+        <div className="home" id='home'>
             <div className="home-left">
                 <div className='icons'>
                     <a class="icon" href="https://www.linkedin.com/in" target="_blank" rel="noreferrer" >

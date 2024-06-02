@@ -2,7 +2,7 @@ import './Experience.css';
 
 function Experience(){
     return (
-        <div className="experience">
+        <div className="experience" id='experience'>
             <div class="edc-image">
                 <img class="image" src="https://dev-portfolio-template.netlify.app/static/media/expOrange.9383b2df.svg"></img>
 

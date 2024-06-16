@@ -25,12 +25,11 @@ function NavBar() {
                 <>
                     <div className="sidebar open">
                         <button className="close-btn" onClick={toggleSidebar}>×</button>
-                        <a href="#home"><i className="icon-home"></i>Home</a>
-                        <a href="#about"><i className="icon-about"></i>About</a>
-                        <a href="#resume"><i className="icon-resume"></i>Resume</a>
-                        <a href="#services"><i className="icon-services"></i>Services</a>
-                        <a href="#blog"><i className="icon-blog"></i>Blog</a>
-                        <a href="#contact"><i className="icon-contact"></i>Contact</a>
+                        <a href="#home" onClick={toggleSidebar}><i className="icon-home"></i>Home</a>
+                        <a href="#about" onClick={toggleSidebar}><i className="icon-about"></i>About</a>
+                        <a href="#services" onClick={toggleSidebar}><i className="icon-services"></i>Services</a>
+                        <a href="#projects" onClick={toggleSidebar}><i className="icon-project"></i>Project</a>
+                        <a href="#contacts" onClick={toggleSidebar}><i className="icon-contact"></i>Contact</a>
                     </div>
                     <div className="blur-background" onClick={toggleSidebar}></div>
                 </>

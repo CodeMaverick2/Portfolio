@@ -2,6 +2,7 @@ import './About.css';
 function About(){
     return(
         <div className="about" id='about'>
+            
             <div class="about-info">
                 <div class="info">
                     <h2>Who I am</h2>

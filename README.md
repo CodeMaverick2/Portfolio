@@ -14,6 +14,7 @@ This is a React.js-based portfolio designed to highlight my expertise and experi
 ## 🚀 About
 
 Live link -> https://tejasghatule.vercel.app/
+
 This repository contains the source code for my portfolio. Below are the steps to run the website locally.
 
 ### Running the Portfolio Locally
